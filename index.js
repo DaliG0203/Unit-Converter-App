@@ -4,6 +4,8 @@ const lengthOutput = document.getElementById("lengthOutputTxt")
 const volumeOutput = document.getElementById("VolumeOutputTxt")
 const massOutput = document.getElementById("MassOutputTxt")
 
+
+//used this for template string testing purposes:
 function metersToFeet(num){
     return num * 3.28
 }
