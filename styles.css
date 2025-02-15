@@ -1,0 +1,126 @@
+body {
+    display: flex;
+    background-color:#1C1C1C;
+    margin: 0;
+    flex-direction: column;
+    align-items:center
+}
+
+#input-container{
+    display: flex;
+    flex-direction: column;
+    align-items:center;
+    margin-top: 30px;
+    width: 550px;
+    height: 285px;
+    background-color: #6943FF;
+}
+#output-container{
+    width: 550px;
+    height: 444px;
+    background-color: #1F2937;
+}
+
+#header{
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 28px;
+    line-height: 38px;
+    letter-spacing: -3%;
+    text-align: center;
+    color: white;
+
+}
+
+#inputBox{
+    margin-top: 15px;
+    width: 117px;
+    height: 83px;
+    border: 2px solid #B295FF;
+    border-radius: 5px;
+    background-color: #6943FF;
+    font-family: Inter, sans-serif;
+    font-weight: 800;
+    font-size: 58px;
+    line-height: 24.39px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+#button{
+    margin-top: 30px;
+    width: 117px;
+    height: 42px;
+    border-radius: 5px;
+    border:none;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+#lengthOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 108px;
+    margin-top: 36px ;
+    margin-left: 25px;
+    background-color: #273549;
+    border-radius: 5px;
+}
+
+.OutputHeader{
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color:#CCC1FF;
+
+
+}
+.outputTxt{
+    margin-top:10px;
+    display: flex;
+    justify-content: center;
+    font-family: Inter, sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: white;
+
+}
+
+
+#VolumeOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 108px;
+    margin-top: 24px ;
+    margin-left: 25px;
+    background-color: #273549;
+    border-radius: 5px;
+}
+
+
+#MassOutput{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 500px;
+    height: 108px;
+    margin-top: 24px ;
+    margin-left: 25px;
+    background-color: #273549;
+    border-radius: 5px;
+}
